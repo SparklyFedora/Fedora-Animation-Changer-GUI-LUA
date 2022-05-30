@@ -164,7 +164,7 @@ wait(1)
 
 end
 
-elseif game.Players.LocalPlayer.Name == "m987q48" then
+elseif game.Players.LocalPlayer.Name == "Sparklyfedorablox" then
 
 while true do
 
@@ -188,18 +188,15 @@ wait(1)
 
 end
 
-elseif game.Players.LocalPlayer.Name ~= "m987q48" then
 
-game:GetService("StarterGui"):SetCore("SendNotification", {
 
-Title = "Access denied!";
 
- Text = "This animation can only be used by an owner. YOU are not the owner." ;
 
- Icon = "rbxthumb://"})
 
- Duration = 16;  
 
+
+
+ 
 end
 
 end)
