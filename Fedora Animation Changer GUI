@@ -1,0 +1,206 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Fedora Animation Changer GUI (Beta)", "BloodTheme")
+
+local AnimationsTab = Window:NewTab("Animations")
+
+local AnimationsSection = AnimationsTab:NewSection("Remember to reset before selecting a new animation!")
+
+AnimationsSection:NewButton("Zombie Animation", "loads Zombie Animation", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+
+game.Players.LocalPlayer.Character.Humanoid.Jump = false
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Ninja Animation", "Loads the Ninja Animation", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+
+Animate.run.RunAnim.AnimationId = "https://www.roblox.com/asset/?id=656118852"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+
+Animate.swimidle.SwimIdleAnim.AnimationId = "http://www.roblox.com/asset/?id=656119721"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+
+wait (1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Oldschool Animation", "Loads OldSchool animation", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+
+Animate.climb.ClimbAnim.AnimationId = "https://www.roblox.com/asset/?id=5319816685"
+
+wait (1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Cartoony Animation", "Loads the Cartoony Animation", function()
+
+    while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "https://www.roblox.com/asset/?id=742637544"
+
+Animate.idle.Animation2.AnimationId = "https://www.roblox.com/asset/?id=742638445"
+
+Animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/asset/?id=742640026"
+
+Animate.run.RunAnim.AnimationId = "https://www.roblox.com/asset/?id=742638842"
+
+Animate.jump.JumpAnim.AnimationId = "https://www.roblox.com/asset/?id=742637942"
+
+Animate.fall.FallAnim.AnimationId = "https://www.roblox.com/asset/?id=742637151"
+
+Animate.climb.ClimbAnim.AnimationId = "https://www.roblox.com/asset/?id=742636889"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Werewolf Animation", "Loads Werewolf Animation", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("God Animation [👑 OWNER ONLY]", "Loads the God Animation", function()
+
+if game.Players.LocalPlayer.Name == "m987q48"  then
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+
+wait(1)
+
+end
+
+elseif game.Players.LocalPlayer.Name == "m987q48" then
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+
+wait(1)
+
+end
+
+elseif game.Players.LocalPlayer.Name ~= "m987q48" then
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+
+Title = "Access denied!";
+
+ Text = "This animation can only be used by an owner. YOU are not the owner." ;
+
+ Icon = "rbxthumb://"})
+
+ Duration = 16;  
+
+end
+
+end)
+
